@@ -1,4 +1,3 @@
-# ritmo
 <div align="center">
   <h1>🎼 Ritmo Music Player</h1>
   <p><strong>A high-performance, cross-platform local music player built with Tauri, Rust, and React.</strong></p>
