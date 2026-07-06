@@ -55,35 +55,6 @@ Ritmo strictly separates presentation from core execution:
 
 ---
 
-## 🗺️ Roadmap
-
-We are constantly evolving to provide the ultimate desktop music experience. Upcoming features include:
-- [ ] **Gapless Playback**: Pre-loading tracks directly in Rust hardware buffers for zero-latency transitions.
-- [ ] **Fast Directory Workbench**: Proactive recursive exploration for folders dragged directly into the volatile Workbench.
-- [ ] **Advanced Playlist Engine**: Deep database integration for permanent playlist curation.
-- [ ] **Smart Artist Merger**: Automatic backend deduplication for discrepant metadata (e.g., "AC DC" -> "AC/DC").
-
----
-
-## Recommended IDE Setup
-
-- VS Code + Tauri + rust-analyzer
-
-## Development
-
-Ensure you have the Rust toolchain, Node.js, and the Tauri prerequisites installed for your platform.
-
-```bash
-# Install dependencies
-yarn install
-
-# Start the development server and Rust backend
-yarn tauri dev
-```
-*Note: The `dev` profile for Rust is configured with `opt-level = 3` and `codegen-units = 1` for external dependencies to ensure the audio engine runs flawlessly without crackling during development.*
-
----
-
 <div align="center">
   <p>Built with passion and precision.</p>
 </div>
